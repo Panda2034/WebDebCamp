@@ -1,0 +1,116 @@
+Body {
+    background:url("https://www.designyourway.net/blog/wp-content/uploads/2018/11/pastel-background-goo.jpg");
+    background-size:cover;
+    background-repeat:no-reapeat;
+    font-family:"Times New Roman";
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.container {
+           display:flex;
+        flex-direction: column;
+           
+}
+
+.slideshow-container{
+    position:relative;
+    max-width:100%;
+    margin:auto;
+}
+
+.slide{
+    display:none;
+    width:100%;
+    height:auto;
+}
+
+.image1 {
+    width: 50%;
+    justify-self: center;
+}
+
+.image2 {
+    width: 50%;
+    justify-self: center;
+}
+
+.image3 {
+   width:10%;
+}
+
+
+
+
+/* h1 {
+    position: absolute;
+    top:50% ;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  
+
+} */
+
+h1,h2,h3,p,img {
+    Text-align:center;
+}
+
+
+
+p {
+    color:red
+}
+
+
+
+h1:hover { 
+    color:#449403f2
+}
+
+h2 {
+    color:rgb(248, 203, 147)
+}
+
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.h4Class {
+    font-weight: bold;
+}
+
+.rscClass {
+
+    font-style: italic;
+}
+
+#h31d {
+    font-style: inherit;
+}
+
+#google-link:visited {
+    color: green;
+}
+
+#google-link:hover {
+    color:blue
+}
+
+
+.bx{
+    background-color:red;
+    padding:15px 20px 40px 15px;
+    margin:20px 30px;
+    border: 2px dashed blue;
+}
+
+.bx{
+    background-color: white;
+
+}
+
+#pastaid {
+    position: sticky;
+    top: 50px;
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> -Italia</title>
+    <link rel="stylesheet"type="text/css"href="style.css"></linkrel>
+    <script -src="script.js"></script>
+</head>
+<body>
+
+    <div class=" container">
+
+    <div id="pastaid">
+        <h1>All About Pasta</h1>
+    </div>
+    
+    <h2 class="textClass">Is</h2>
+    <h3 class="textClass"id="h31d">Italian Cusine</h3>
+    <h4 class="h4Class textClass">-Italia</h1>
+    <p class="rscClass textClass">Best taste of all food</p>
+    <img src="Untitled design.png" class="image3">
+
+    <h1>Welcome to the Italia</h1>
+    <h2>We bring the taste of Italy on the tips of your tongue </h2>   
+    <p> Pasta is a Italian dish that originated in China <br>consisting of dough made from durum wheat, extruded or stamped into various shapes and cooked in boiling water, and typically served with a sauce. </p>
+    <a id="google-link" href="https://youtu.be/Fb_IljnhwTo">This is a pasta recipe</a>
+    <br>
+    <div class="container2"> 
+        <img src="vegan-pasta-recipes_01.jpg" class="image2">
+    
+
+    
+    <div class=""slide>
+
+        </div>
+        
+        <div class=""slide>
+
+        </div>
+
+        </div>
+
+    
+
+        
+    <h2>Things you need to buy for making chicken pasta</h2>
+    <ul>
+        <li>Pasta </li>
+        <li>Chicken breast</li>
+        <li>Seasoning</li>
+        <li>Olive oil</li>
+        <li>Butter</li>
+        <li>Garlic</li>
+        <li>Tomatoes</li>
+        <li>Spinich</li>
+        <li>Heavy cream</li>
+        <li>Parmesan cheese</li>
+
+
+    <ol>
+        <h2>Recipe</h2>
+        <li>Warm up the olive oil in a heavy-duty pan using medium-high heat. Once it’s hot, add the <br>chicken breast and cook them for 5 minutes on each side or until it’s cooked all the way<br>through. After the chicken is cooked, remove it from the pan and set it aside.</li>
+        <br>
+        <li>Using the same pan, add in the garlic and butter. Sautee for 1 minute or until the garlic is<br> fragrant. Then add in the diced tomato and fresh spinach. Cook for 2 to 3 minutes until the<br> spinach has wilted and the tomatoes have softened.</li>
+        <br>
+        <li>Turn down the heat. Whick until everything is creamy and fully corporated.Add the peper and salt </li>
+        <br>
+        <li>Drain the pasta and slice up the chicken into thin slices. Place them in both in the pan and stir well. Serve, and enjoy!</li>
+
+
+            
+
+
+        <table>
+        <p>Workdays</p>
+           <td>Monday</td>>
+           <td>Tuesday</td>>
+           <td>Wednesday</td>>
+           <td>Thursday</td>>
+           <td>Friday</td>>
+
+            
+        </table>
+
+
+        <div class="bx">
+
+            <p>This is div</p>
+            <p>Yes</p>
+
+
+        <h1>About the website creater</h1>
+        <h2>Hobbies</h2>
+        <p>Panda enjoys cooking, drawing, sports and reading in her free time </p>
+        <img src="Tennis.webp" class="image1">
+        <h2>Sports Panda plays</h2>
+        <ol>
+        <li> Tennis </li>
+        <li>Basketball</li>
+        <li>Track</li>
+        <li>Cross country</li>
+        <li>Skating</li>
+        <li>Skiing</li>
+        <li> and more...</li>
+
+        <h2>Days Panda has school</h2>
+
+        <table>
+            <td>Monday</td>>
+           <td>Tuesday</td>>
+           <td>Wednesday</td>>
+           <td>Thursday</td>>
+           <td>Friday</td>>
+
+           
+           <p>Email</p>
+           <input type="email"id="email" value = "johndoe@redmondstemcenter.org">
+           <input type ="password" id="password" value="Apple3.14159">
+           <input type="submit" id="password" onsubmit="checkEmail()"><br>
+           <p id="res"></p> 
+
+           <script>
+            function checkEmail(){
+                let email= document.getElementById("email");
+                let pass= document.getElementById("password");
+                if(email== "johndoe@redmondstemcenter.org" && pass=="Apple3.14159") {
+                    document.getElementById("res").innerHTML = "Correct";
+                }else{
+                    document.getElementById("res").innerHTML = "Wrong";  
+                }
+            }
+           </script>
+
+           </table>
+
+         <script>
+
+            let slideIndex = 0;
+
+function showSlides() {
+    let slides = document.getElementsByClassName("slide");
+
+    for(let i=0;i<slides.length;i++){
+        slides[i].computedStyleMap.display = "none";
+    
+    }
+
+    slideIndex++;
+
+    if(slideIndex > slides.length) {
+        slideIndex = 1;
+    }
+
+    slides[slideIndex-1].Style.display = "block";
+    setTimeout(showSlides, 2000);
+
+}
+showSlides();
+
+         </script>
+
+
+
+        </div>
+           
+        
+</body>
+</html>
